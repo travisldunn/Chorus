@@ -1,0 +1,13 @@
+
+<section class="chatbox">
+  <div *ngFor = "let post of posts | sort: 'time' index as i" class="list-group-item">
+    <p *ngIf="(i===0)"class="speaker">{{post.speaker}}</p>
+    <p *ngIf="(i > 0) && (post.speaker != posts[i-1].speaker)" class="speaker">{{post.speaker}}</p>
+    <p class="snippet">{{post.snippet}}</p>
+    <div *ngIf="(i < posts.length -1) &&
+    (post.speaker != posts[i+1].speaker)"[class]="getColor(post.speaker)"></div>
+    <div *ngIf="(i === posts.length -1)"[class]="getColor(post.speaker)"></div>
+
+
+  </div>
+</section>

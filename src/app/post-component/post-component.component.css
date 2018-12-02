@@ -1,0 +1,46 @@
+.chatbox {
+  margin-left: 68px;
+  padding-bottom: 84px;
+  padding-top: 5px;
+}
+
+.speaker {
+  font-family: sffont;
+  font-size: 12px;
+  color: #333333;
+  line-height: 16px;
+  padding-left: 11px;
+  margin-bottom: -1px;
+}
+
+.snippet {
+  font-family: sffont;
+  font-size: 15px;
+  color: #333333;
+  line-height: 20px;
+  background: #F7F7F7;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 6px 8px;
+  margin: 1px;
+}
+
+.circle {
+  position: relative;
+  top: -30px;
+  left: -33px;
+  height: 25px;
+  width: 25px;
+}
+
+.cust {
+  background: rgba(238,110,255,0.10);
+  border: 1px solid #EE6EFF;
+  border-radius: 100px;
+}
+
+.rep {
+  background: rgba(64,168,209,0.10);
+  border: 1px solid #00A7D1;
+  border-radius: 100px;
+}

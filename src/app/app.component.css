@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "sffont";
+  src: url("../assets/SF-Pro-Text-Regular.otf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+#container {
+  border-bottom: #00A7D1 4px solid;
+  position: relative;
+}
+
+
+#mainContainer {
+  width: 824px;
+  margin: auto;
+  margin-top: 252px;
+  margin-bottom: 197px;
+  background: #FFFFFF;
+  border: 1px solid #D7DADE;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+  font-family: sffont;
+  font-weight: 100;
+  color: #333;
+  margin-top: 43px;
+}
+
+#logoBox {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#logo {
+  display: block;
+  width: 162px;
+  margin: auto;
+  margin-bottom: 20px;
+}

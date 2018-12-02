@@ -1,0 +1,9 @@
+#vid {
+  width: 304px;
+  margin: auto;
+}
+
+#vid video {
+  width: 100%;
+  border-radius: 5px;
+}
